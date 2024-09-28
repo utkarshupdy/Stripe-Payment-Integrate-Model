@@ -1,0 +1,20 @@
+{
+  "name": "stripe_backend",
+  "version": "1.0.0",
+  
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "author": "utkarsh updy",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.21.0",
+    "nodemon": "^3.1.7",
+    "selfsigned": "^2.4.1",
+    "stripe": "^16.12.0",
+    "uuid": "^10.0.0"
+  }
+}
